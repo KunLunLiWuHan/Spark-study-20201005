@@ -24,6 +24,7 @@ object Spark07_BroadcastVar {
      */
     val broadcast: Broadcast[List[(Int, Int)]] = sc.broadcast(list)
     val result: List[(Int, (String, Any))] = rdd1.map {
+      //上一个父rdd的类型值可直接命名为变量使用，此时case（p）相当于 map（p=>{}）
       case (key, value) => {
         var v2: Any = null
         //2、使用广播变量
