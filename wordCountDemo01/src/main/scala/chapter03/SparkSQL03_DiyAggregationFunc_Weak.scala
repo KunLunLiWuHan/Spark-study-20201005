@@ -40,7 +40,7 @@ class MyAgeAvgFunction extends UserDefinedAggregateFunction {
      * 2、该输入参数只会在更新函数update()中的input参数用到。
      * 3、传入两个需要操作的数据进行求平均值，步骤一致。
      */
-    //    new StructType().add("age", LongType)
+    //    new StructType().add("age", LongType) //只计算年龄的平均值
     new StructType().add("age", LongType).add("grade", LongType)
 
   }

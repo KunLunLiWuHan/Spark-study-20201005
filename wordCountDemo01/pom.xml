@@ -42,9 +42,26 @@
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-sql_2.11</artifactId>
-                <!--版本应该是2.1.1，不然会报错-->
-<!--            <version>2.4.4</version>-->
+            <!--版本应该是2.1.1，不然会报错-->
+            <!--            <version>2.4.4</version>-->
             <version>2.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming_2.11</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+        <!--从kafka中采集数据并消费-->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming-kafka-0-8_2.11</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>0.11.0.2</version>
         </dependency>
 
     </dependencies>

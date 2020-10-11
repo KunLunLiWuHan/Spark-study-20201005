@@ -8,7 +8,7 @@ import org.apache.spark.sql.{DataFrame, SparkSession}
  * @author: likunlun 
  * @description: 创建DataFrame读取数据
  */
-object Spark01_sqlCreateDataFrame {
+object SparkSQL01_CreateDataFrame {
   def main(args: Array[String]): Unit = {
     val sparkConf: SparkConf = new SparkConf().setMaster("local[*]").setAppName("SparkSql01")
     val spark: SparkSession = SparkSession.builder().config(sparkConf).getOrCreate()
