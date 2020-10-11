@@ -1,11 +1,11 @@
-package operator01_valueType
+package chapter02
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
- * @time: 2020-10-02 19:52 
- * @author: likunlun 
+ * @time: 2020-10-02 19:52
+ * @author: likunlun
  * @description: 算子测试
  */
 object operator01_valueType {

@@ -1,4 +1,4 @@
-package RddProgram
+package chapter02
 
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.{SparkConf, SparkContext}

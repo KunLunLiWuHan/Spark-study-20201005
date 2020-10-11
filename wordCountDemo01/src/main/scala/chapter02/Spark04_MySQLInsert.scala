@@ -1,4 +1,4 @@
-package RddProgram
+package chapter02
 
 import java.sql.{DriverManager, PreparedStatement}
 

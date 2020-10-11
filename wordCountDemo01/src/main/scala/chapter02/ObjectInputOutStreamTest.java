@@ -1,6 +1,5 @@
-package RddProgram;
+package chapter02;
 
-import RddProgram.Person;
 import org.junit.Test;
 
 import java.io.FileInputStream;
